@@ -11,7 +11,7 @@ are excluded from code evidence. Malformed Python files are skipped.
 ```sh
 pip install .
 platform-claim-audit path/to/project --json
-python -m platform_claim_audit path/to/project --verbose
+python3 -m platform_claim_audit path/to/project --verbose
 ```
 
 Exit codes: 0 PASS, 2 FAIL, 1 usage/input error. --version prints 0.1.0.
